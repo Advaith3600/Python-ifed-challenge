@@ -68,8 +68,8 @@ def ability(pokemon):
 
     return list(map(lambda a: a['ability']['name'], abilities))
 
-types = pokeType('pidgeot')
-print()
-double_damage_types = damageFrom(types)
-print()
-doubleDamageTypesPokemon(double_damage_types)
+# types = pokeType('pidgeot')
+# print()
+# double_damage_types = damageFrom(types)
+# print()
+# doubleDamageTypesPokemon(double_damage_types)
